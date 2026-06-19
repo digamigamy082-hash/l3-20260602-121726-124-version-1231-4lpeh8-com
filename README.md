@@ -1,16 +1,13 @@
-﻿# website-upload-20260602-121726-124
+# 静态电影网站
 
-Batch 124 of 38. Contains extracted static website versions. The original zip files are not committed.
+本文件夹是已生成的纯静态电影网站。
 
-| Directory | Source zip |
-| --- | --- |
-| version-1231 | project-bolt-sb1-ej4fjrfk - 副本-chatgpt (1).zip |
-| version-1232 | project-bolt-sb1-ej4fjrfk-chatgpt (1) (moved 1).zip |
-| version-1233 | project-bolt-sb1-ej4fjrfk-chatgpt (1).zip |
-| version-1234 | project-bolt-sb1-ejlasnvz - 副本-chatgpt (1) (moved 1).zip |
-| version-1235 | project-bolt-sb1-ejlasnvz - 副本-chatgpt (1).zip |
-| version-1236 | project-bolt-sb1-ejlasnvz-chatgpt (1) (moved 1).zip |
-| version-1237 | project-bolt-sb1-ejlasnvz-chatgpt (1).zip |
-| version-1238 | project-bolt-sb1-ekcqxlsg - 副本-chatgpt (1) (moved 1).zip |
-| version-1239 | project-bolt-sb1-ekcqxlsg - 副本-chatgpt (1).zip |
-| version-1240 | project-bolt-sb1-ekcqxlsg-chatgpt (1).zip |
+- 影片详情页数量：2000
+- 独立分类页数量：10
+- 播放源数量：20
+- 首页：index.html
+- 分类总览：categories.html
+- 热播榜：rankings.html
+- 搜索页：search.html
+
+部署时将整个文件夹上传到站点根目录即可。若后续补充 1.jpg 到 150.jpg 到站点根目录，首页 Hero、卡片和详情页会自动优先使用这些图片；未放入图片时页面会显示渐变封面底图。
